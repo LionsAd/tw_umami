@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/tailwind.css: {}
+  js:
+    js/alpine.min.js: {}
+    js/once.js: {}
+
+messages:
+  js:
+    js/messages.js: {}

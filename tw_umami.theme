@@ -1,0 +1,8 @@
+<?php // phpcs:ignore Drupal.Commenting.FileComment.Missing
+
+declare(strict_types=1);
+
+/**
+ * @file
+ * Functions to support theming in the Umami TW theme.
+ */

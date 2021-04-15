@@ -1,0 +1,25 @@
+name: TW Umami
+description: TW Umami (based upon Tailwind CSS)
+core_version_requirement: ^9
+type: theme
+base theme: umami
+regions:
+  pre_header: Pre-header
+  header: Header
+  highlighted: Highlighted
+  tabs: Tabs
+  banner_top: 'Banner Top'
+  breadcrumbs: Breadcrumbs
+  page_title: 'Page Title'
+  content: Content
+  sidebar: Sidebar
+  content_bottom: 'Content Bottom'
+  footer: Footer
+  bottom: Bottom
+  page_top: 'Page top' # Needed by Drupal Core
+  page_bottom: 'Page bottom' # Needed by Drupal Core
+libraries:
+  - tw_umami/global-styling
+libraries-extend:
+  core/drupal.message:
+    - tw_umami/messages
